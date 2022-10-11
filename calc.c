@@ -1,27 +1,32 @@
 #include<stdio.h>
+
 int main()
 {
-    char op;
+    char operator;
     int a, b;
-    printf("enter the number ,operator and another number");
-    scanf("%d%c%d",&a,&op,&b);
+    printf("Enter the number, operator and another number\n");
+    scanf("%d%c%d", &a, &operator, &b);
 
-    switch(op)
+    switch(operator)
     {
         case '+':
-        printf("Result = %d\n",a+b);
+        printf("Result: %d\n", a + b);
         break;
+
         case '-':
-        printf("Result = %d\n",a-b);
+        printf("Result: %d\n", a - b);
         break;
+
         case '*':
-        printf("Result = %d\n",a*b);
+        printf("Result: %d\n", a * b);
         break;
+
         case '/':
-        printf("Result = %d\n",a/b);
+        printf("Result: %d\n", a / b);
         break;
+
         default:
-        printf("enter the valid operator\n");
+        printf("Enter the valid operator\n");
     }
     return 0;
 }
