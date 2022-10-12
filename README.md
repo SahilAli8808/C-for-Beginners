@@ -18,4 +18,5 @@ C in depth one of the most powerful weapon for new students,having no idea about
     $./hello
 ```
     syntax:$ gcc -o <filename(whatever you can give)> filename.c
+    example $ gcc -o hii hello.c
 
